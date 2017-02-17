@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Genco Energia</title>
@@ -23,13 +18,14 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="index.html">Home</a></li>
+							<li><a href="nosotros.html">Nosotros</a></li>
 							<li>
 								<a href="#">Productos</a>
 								<ul>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li>
+									<li><a href="#">Left Sidebar</a></li>
+									<li><a href="#">Right Sidebar</a></li>
+									<li><a href="#">No Sidebar</a></li>
+									<!--<li>
 										<a href="#">Submenu</a>
 										<ul>
 											<li><a href="#">Option 1</a></li>
@@ -37,11 +33,11 @@
 											<li><a href="#">Option 3</a></li>
 											<li><a href="#">Option 4</a></li>
 										</ul>
-									</li>
+									</li>-->
 								</ul>
 							</li>
-							<li><a href="elements.html">Blog</a></li>
-							<li><a href="#" class="button special">Contacto</a></li>
+							<li><a href="noticia-google.html">Blog</a></li>
+							<li><a href="contacto.html" class="button special">Contacto</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -51,58 +47,39 @@
 					<div class="container">
 						<header class="major">
 							<h2>Escribenos</h2>
-							<p>Estaremos encantados de atenderte</p>
+							<p>Estaremos encantados de atenderte.</p>
 						</header>
 
 						<!-- Content -->
 							<section id="content">
 								<!--<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>-->
-								<form method="post" action="#">
+								<form method="post" action="https://formspree.io/info@gencoenergia.com" method="POST">
 									<div class="row uniform 50%">
 										<div class="6u 12u$(xsmall)">
-											<input type="text" name="name" id="name" value="" placeholder="Name" />
+											<input type="text" name="name" id="name" value="" placeholder="Ingresa tu nombre.." />
 										</div>
 										<div class="6u$ 12u$(xsmall)">
-											<input type="email" name="email" id="email" value="" placeholder="Email" />
+											<input type="email" name="email" id="email" value="" placeholder="Ingresa tu correo.." />
 										</div>
 										<div class="12u$">
 											<div class="select-wrapper">
 												<select name="category" id="category">
-													<option value="">- Category -</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
+													<option value="">- Motivo -</option>
+													<option value="1">Consulta</option>
+													<option value="1">Cotización</option>
+													<option value="1">Solicitud</option>
+													<option value="1">Recursos humanos</option>
 												</select>
 											</div>
 										</div>
-										<div class="4u 12u$(medium)">
-											<input type="radio" id="priority-low" name="priority" checked>
-											<label for="priority-low">Low Priority</label>
-										</div>
-										<div class="4u 12u$(medium)">
-											<input type="radio" id="priority-normal" name="priority">
-											<label for="priority-normal">Normal Priority</label>
-										</div>
-										<div class="4u$ 12u$(medium)">
-											<input type="radio" id="priority-high" name="priority">
-											<label for="priority-high">High Priority</label>
-										</div>
-										<div class="6u 12u$(medium)">
-											<input type="checkbox" id="copy" name="copy">
-											<label for="copy">Email me a copy of this message</label>
-										</div>
-										<div class="6u$ 12u$(medium)">
-											<input type="checkbox" id="human" name="human" checked>
-											<label for="human">I am a human and not a robot</label>
-										</div>
 										<div class="12u$">
-											<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+											<textarea name="message" id="message" placeholder="Escribe tu mensaje.." rows="6"></textarea>
 										</div>
 										<div class="12u$">
 											<ul class="actions">
-												<li><input type="submit" value="Send Message" class="special" /></li>
-												<li><input type="reset" value="Reset" /></li>
+												<li><input type="submit" value="Enviar" class="special" /></li>
+												<li><input type="reset" value="Borrar" /></li>
+												<input type="hidden" name="_next" value="elements.html" />
 											</ul>
 										</div>
 									</div>
