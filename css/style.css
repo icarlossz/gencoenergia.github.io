@@ -765,6 +765,12 @@ footer strong {
   .navbar-default .navbar-brand {
     line-height: 15px;
   }
+
+  .navbar-default .navbar-brand img {
+    height: auto;
+    width: 80px;
+  }
+	
   .navbar-default .navbar-nav li a {
     line-height: 30px;
   }
