@@ -218,7 +218,7 @@ a:focus {
 }
 #home .btn:hover,
 #home .btn:focus {
-  color: #c21500;
+  color: #009548;
 }
 
 
@@ -249,7 +249,7 @@ a:focus {
 }
 
 .navbar-default .navbar-nav > li a:hover {
-    color: #c21500 !important;
+    color:#009548 !important;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -261,7 +261,7 @@ a:focus {
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #c21500;
+    color:#009548;
     background-color: transparent;
 }
 
@@ -306,7 +306,7 @@ a:focus {
   transition: all 0.4s ease-in-out;
 }
 #feature .feature-icon:hover {
-  background-color: #c21500;
+  background-color:#009548;
 }
 #feature .feature-icon span {
   display: table-cell;
@@ -439,7 +439,7 @@ a:focus {
 #team .team-thumb:hover .team-des {
   color: #ffffff;
   height: 100%;
-  background-color: #c21500;
+  background-color:#009548;
   padding-top: 30%;
   opacity: 0.9;
 }
@@ -450,7 +450,7 @@ a:focus {
 }
 
 #team .join-team {
-  background-color: #c21500;
+  background-color:#009548;
   color: #f0f0f0;
   padding: 30px 20px;
   text-align: center;
@@ -492,7 +492,7 @@ a:focus {
 } 
 
 #gallery .gallery-thumb .gallery-overlay {
-  background: #c21500;
+  background:#009548;
   position: absolute;
   top: 0;
   right: 0;
@@ -559,7 +559,7 @@ a:focus {
 }
 .filter-wrapper li a:hover,
 .filter-wrapper li a:focus {
-  color: #C21500;
+  color:#009548;
 }
 
 /*isotope box css*/
@@ -633,7 +633,7 @@ a:focus {
 #contact input[type='submit'] {
   background: #ffffff;
   border-radius: 4px;
-  color: #c21500;
+  color:#009548;
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 2px;
@@ -642,7 +642,7 @@ a:focus {
   transition: all 0.4s ease-in-out;
 }
 #contact input[type='submit']:hover {
-  background-color: #c21500;
+  background-color:#009548;
   border-color: transparent;
   color: #ffffff;
 }
@@ -685,7 +685,7 @@ footer strong {
   transition: all 0.4s ease-in-out;
 }
 .gototop:hover {
-  background-color: #c21500;
+  background-color:#009548;
   color: #fff;
 }
 
@@ -765,14 +765,13 @@ footer strong {
   .navbar-default .navbar-brand {
     line-height: 15px;
   }
+  .navbar-default .navbar-nav li a {
+    line-height: 30px;
+  }
 
   .navbar-default .navbar-brand img {
     height: auto;
     width: 80px;
-  }
-	
-  .navbar-default .navbar-nav li a {
-    line-height: 30px;
   }
 
   #feature .col-md-4,
