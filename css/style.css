@@ -6,7 +6,7 @@ h1{font-weight:bold;font-size:80px;}
 h2{color:#333;font-size:40px;letter-spacing:2px;text-transform:uppercase;margin-top:8px;}
 #contact h2{color:#ffffff;}
 h3{color:#444;font-size:20px;line-height:26px;letter-spacing:1px;padding-bottom:10px;}
-#menu h3{color:#555;}
+#productos h3{color:#555;}
 h4{font-size:12px;font-weight:bold;letter-spacing:3px;text-transform:uppercase;font-weight:400;}
 p{font-size:18px;letter-spacing:0.8px;line-height:28px;}
 a{text-decoration:none !important;}
@@ -15,23 +15,23 @@ a:focus{outline:none;text-decoration:none !important;}
 .parallax-section{background-attachment:fixed !important;background-size:cover !important;}
 .hvr-bounce-to-bottom:before,
 .hvr-bounce-to-top:before{background-color:#ffffff;}
-#about,
-#feature,
+#nosotros,
+#servicios,
 #video,
-#menu,
+#productos,
 #team,
-#gallery,
+#proyectos,
 #contact{color:#656565;padding-top:70px;padding-bottom:70px;}
-#feature,
+#servicios,
 #video,
 #team,
-#gallery,
+#proyectos,
 #contact{text-align:center;}
-#feature,
+#servicios,
 #team{background:rgb(240,240,240);}
 .section-title{padding-bottom:70px;}
-#about .section-title,
-#menu .section-title{text-align:center;}
+#nosotros .section-title,
+#productos .section-title{text-align:center;}
 #contact .section-title{color:#f0f0f0;}
 .preloader{position:fixed;top:0;left:0;width:100%;height:100%;z-index:99999;display:flex;flex-flow:row nowrap;justify-content:center;align-items:center;background:none repeat scroll 0 0 #ffffff;}
 .sk-spinner-pulse{width:60px;height:60px;background-color:#222;border-radius:100%;-webkit-animation:sk-pulseScaleOut 1s infinite ease-in-out;animation:sk-pulseScaleOut 1s infinite ease-in-out;}
@@ -61,21 +61,21 @@ a:focus{outline:none;text-decoration:none !important;}
 .navbar-default .navbar-toggle .icon-bar{border-color:transparent;}
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus{background-color:transparent;}
-#feature .feature-thumb{background-color:#ffffff;position:relative;padding:40px;margin-top:32px;}
-#feature .feature-icon{background-color:#222;width:85px;margin:0 auto;top:0;margin-top:-70px;margin-bottom:30px;position:relative;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;border-radius:50%;display:table;text-align:center;transition:all 0.4s ease-in-out;}
-#feature .feature-icon:hover{background-color:#009548;}
-#feature .feature-icon span{display:table-cell;vertical-align:middle;}
-#feature .feature-icon .fa{color:#ffffff;font-size:36px;margin:0;padding:0;}
-#feature h3{padding-top:14px;padding-bottom:10px;}
-#about .col-md-4 ul{padding-top:4px;padding-left:28px;}
-#about .col-md-4 ul li{color:#777;font-size:18px;font-weight:400;padding-top:2px;padding-bottom:2px;}
+#servicios .feature-thumb{background-color:#ffffff;position:relative;padding:40px;margin-top:32px;}
+#servicios .feature-icon{background-color:#222;width:85px;margin:0 auto;top:0;margin-top:-70px;margin-bottom:30px;position:relative;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;border-radius:50%;display:table;text-align:center;transition:all 0.4s ease-in-out;}
+#servicios .feature-icon:hover{background-color:#009548;}
+#servicios .feature-icon span{display:table-cell;vertical-align:middle;}
+#servicios .feature-icon .fa{color:#ffffff;font-size:36px;margin:0;padding:0;}
+#servicios h3{padding-top:14px;padding-bottom:10px;}
+#nosotros .col-md-4 ul{padding-top:4px;padding-left:28px;}
+#nosotros .col-md-4 ul li{color:#777;font-size:18px;font-weight:400;padding-top:2px;padding-bottom:2px;}
 #video{background:url('../images/video-bg.jpg') 50% 0 repeat-y fixed;-webkit-background-size:cover;background-size:cover;background-position:center center;position:relative;color:#999;}
 #video .overlay{background:rgba(03,03,03,0.6);width:100%;height:100%;position:absolute;top:0;}
 #video h2{color:#ffffff;padding-top:20px;padding-bottom:16px;}
 #video .fa{position:relative;border:2px solid #ffffff;border-radius:100px;color:#ffffff;font-size:28px;width:80px;height:80px;line-height:80px;text-align:center;vertical-align:middle;margin-top:22px;}
-#menu .media{padding-bottom:20px;}
-#menu .media-object img{width:220px;padding-right:12px;position:relative;}
-#menu .media-object span.menu-price{position:absolute;background-color:#ffffff;color:#222;font-size:20px;font-weight:bold;padding:6px 20px;top:50%;left:3%;}
+#productos .media{padding-bottom:20px;}
+#productos .media-object img{width:220px;padding-right:12px;position:relative;}
+#productos .media-object span.menu-price{position:absolute;background-color:#ffffff;color:#222;font-size:20px;font-weight:bold;padding:6px 20px;top:50%;left:3%;}
 #team h3{padding-bottom:0px;}
 #team .team-des h4{color:#666;padding-top:0px;padding-bottom:10px;}
 #team img{width:100%;opacity:0.3;}
@@ -91,11 +91,11 @@ a:focus{outline:none;text-decoration:none !important;}
 #team .join-team .btn:hover{color:#222;}
 #team .col-md-6{padding-top:62px;}
 #team .col-md-6 h2{padding-bottom:16px;}
-#gallery .gallery-thumb{position:relative;overflow:hidden;margin:0;}
-#gallery .gallery-thumb .gallery-overlay{background:#009548;position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;-webkit-transition:all 0.4s ease-in-out;transition:all 0.4s ease-in-out;}
-#gallery .gallery-thumb:hover .gallery-overlay{opacity:0.9;}
-#gallery .gallery-thumb .gallery-overlay .gallery-item{text-align:center;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
-#gallery .gallery-thumb .fa{background:#ffffff;border-radius:100%;font-size:24px;color:#222;width:60px;height:60px;line-height:60px;text-align:center;vertical-align:middle;}
+#proyectos .gallery-thumb{position:relative;overflow:hidden;margin:0;}
+#proyectos .gallery-thumb .gallery-overlay{background:#009548;position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;opacity:0;-webkit-transition:all 0.4s ease-in-out;transition:all 0.4s ease-in-out;}
+#proyectos .gallery-thumb:hover .gallery-overlay{opacity:0.9;}
+#proyectos .gallery-thumb .gallery-overlay .gallery-item{text-align:center;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
+#proyectos .gallery-thumb .fa{background:#ffffff;border-radius:100%;font-size:24px;color:#222;width:60px;height:60px;line-height:60px;text-align:center;vertical-align:middle;}
 .filter-wrapper{width:100%;margin-bottom:42px;overflow:hidden;}
 .filter-wrapper li{display:inline-block;margin:4px;}
 .filter-wrapper li a{color:#666;font-size:16px;font-weight:600;letter-spacing:2px;padding:8px 17px;margin-right:2px;margin-left:2px;text-transform:uppercase;display:block;text-decoration:none;-webkit-transition:all 0.4s ease-in-out;transition:all 0.4s ease-in-out;}
@@ -124,8 +124,8 @@ footer strong{color:#f0f0f0;font-size:20px;display:block;padding-top:6px;padding
 .social-icon li a{border-radius:100px;color:#626262;font-size:18px;text-decoration:none;transition:all 0.4s ease-in-out;width:35px;height:35px;line-height:35px;text-align:center;margin-bottom:12px;margin-right:10px;}
 .social-icon li a:hover{background:#111;color:#ffffff;}
 @media (max-width:980px){#home{height:65vh;}
-#feature .col-md-4:last-child,
-#about .col-md-4{margin-top:42px;}
+#servicios .col-md-4:last-child,
+#nosotros .col-md-4{margin-top:42px;}
 #team .team-thumb{margin-top:20px;margin-bottom:20px;}
 #team .join-team{padding:71px 50px;margin-top:20px;}
 }
@@ -136,23 +136,23 @@ footer strong{color:#f0f0f0;font-size:20px;display:block;padding-top:6px;padding
 @media (max-width:767px){.navbar-default .navbar-brand{line-height:15px;}
 .navbar-default .navbar-nav li a{line-height:30px;}
 .navbar-default .navbar-brand img{height:auto;width:80px;}
-#feature .col-md-4,
-#about .col-md-5,
+#servicios .col-md-4,
+#nosotros .col-md-5,
 footer .col-md-4{padding-top:20px;padding-bottom:20px;}
 .filter-wrapper{padding:0px;}
 }
 @media (max-width:650px){#home{height:100vh;}
 h1{font-size:60px;}
 h2{font-size:30px;}
-#feature{padding-top:80px;padding-bottom:80px;}
-#about,
-#feature,
+#servicios{padding-top:80px;padding-bottom:80px;}
+#nosotros,
+#servicios,
 #video,
-#menu,
+#productos,
 #team,
-#gallery,
+#proyectos,
 #contact{padding-top:80px;padding-bottom:80px;}
-#menu .media-object img{width:100%;padding-bottom:14px;}
-#menu .media-object span.menu-price{top:30%;left:6%;}
+#productos .media-object img{width:100%;padding-bottom:14px;}
+#productos .media-object span.productos-price{top:30%;left:6%;}
 footer{text-align:center;}
 }
