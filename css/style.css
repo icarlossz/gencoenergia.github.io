@@ -116,6 +116,7 @@ a:focus{outline:none;text-decoration:none !important;}
 footer{background-color:#141414;color:#757575;padding-top:100px;padding-bottom:100px;}
 footer h3{color:#ffffff;text-transform:uppercase;padding-bottom:14px;}
 footer strong{color:#f0f0f0;font-size:20px;display:block;padding-top:6px;padding-bottom:2px;}
+footer .fa{color:#ffffff;font-size:32px;margin:0 15px;padding:0;}
 #copyright p{padding:20px;}
 .gototop{background-color:#242424;color:#ffffff;font-size:40px;padding:20px 32px;text-align:right;transition:all 0.4s ease-in-out;}
 .gototop:hover{background-color:#009548;color:#fff;}
