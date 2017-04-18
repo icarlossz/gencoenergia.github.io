@@ -44,7 +44,7 @@ a:focus{outline:none;text-decoration:none !important;}
 .img-home{text-align:center;padding:30px 0;margin:0 auto;}
 .ptop10{padding-top:10px;}
 #home{color:#ffffff;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;text-align:center;height:100vh;overflow:hidden;position:relative;}
-#home .gradient-overlay{background:#29a52e;background:-webkit-linear-gradient(to left, rgba(51, 51, 51, 0.75) , rgba(5, 90, 41, 0.45));background:linear-gradient(to left, rgba(51, 51, 51, 0.75) , rgba(5, 90, 41, 0.45));opacity:0.8;position:absolute;top:0;width:100%;height:100vh;}
+#home .gradient-overlay{background:#29a52e;background:-webkit-linear-gradient(to left, linear-gradient(to left, rgba(11, 134, 70, 0.59) , rgba(5, 90, 41, 0.55));background:linear-gradient(to left, linear-gradient(to left, rgba(11, 134, 70, 0.59) , rgba(5, 90, 41, 0.55));opacity:0.8;position:absolute;top:0;width:100%;height:100vh;}
 #home .btn{background:#ffc525;color:#ffffff;font-size:12px;letter-spacing:2px;padding:13px 30px;margin-top:34px;text-transform:uppercase;text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);}
 #home .btn:hover,
 #home .btn:focus{color:#009548;}
@@ -63,13 +63,15 @@ a:focus{outline:none;text-decoration:none !important;}
 .navbar-default .navbar-toggle:focus{background-color:transparent;}
 #servicios .feature-thumb{background-color:#ffffff;position:relative;padding:40px;margin-top:32px;height: 450px; transition: 0.3s;}
 #servicios .feature-thumb:hover{box-shadow: 5px 5px 0 #009640;}
-#servicios .feature-icon{background-color:#222;width:85px;margin:0 auto;top:0;margin-top:-70px;margin-bottom:30px;position:relative;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;border-radius:50%;display:table;text-align:center;transition:all 0.4s ease-in-out;}
+#servicios .feature-icon{width:120px;margin:0 auto;top:0;margin-top:-70px;position:relative;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;border-radius:50%;display:table;text-align:center;transition:all 0.4s ease-in-out;}
 #servicios .feature-icon:hover{background-color:#009548;}
 #servicios .feature-icon span{display:table-cell;vertical-align:middle;}
 #servicios .feature-icon .fa{color:#ffffff;font-size:36px;margin:0;padding:0;}
 #servicios h3{padding-top:14px;padding-bottom:10px;}
 #nosotros .col-md-4 ul{padding-top:4px;padding-left:28px;}
 #nosotros .col-md-4 ul li{color:#777;font-size:18px;font-weight:400;padding-top:2px;padding-bottom:2px;}
+#nosotros h2{color: #039742;}
+#nosotros h2:first-child{color: #4a4a4a;}
 #video{background:url('../images/video-bg.jpg') 50% 0 repeat-y fixed;-webkit-background-size:cover;background-size:cover;background-position:center center;position:relative;color:#999;}
 #video .overlay{background:rgba(03,03,03,0.6);width:100%;height:100%;position:absolute;top:0;}
 #video h2{color:#ffffff;padding-top:20px;padding-bottom:16px;}
