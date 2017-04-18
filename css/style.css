@@ -61,7 +61,8 @@ a:focus{outline:none;text-decoration:none !important;}
 .navbar-default .navbar-toggle .icon-bar{border-color:transparent;}
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus{background-color:transparent;}
-#servicios .feature-thumb{background-color:#ffffff;position:relative;padding:40px;margin-top:32px;height: 450px;}
+#servicios .feature-thumb{background-color:#ffffff;position:relative;padding:40px;margin-top:32px;height: 450px; transition: 0.3s;}
+#servicios .feature-thumb:hover{box-shadow: 5px 5px 0 #009640;}
 #servicios .feature-icon{background-color:#222;width:85px;margin:0 auto;top:0;margin-top:-70px;margin-bottom:30px;position:relative;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;border-radius:50%;display:table;text-align:center;transition:all 0.4s ease-in-out;}
 #servicios .feature-icon:hover{background-color:#009548;}
 #servicios .feature-icon span{display:table-cell;vertical-align:middle;}
