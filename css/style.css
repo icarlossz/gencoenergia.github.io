@@ -17,6 +17,7 @@ a:focus{outline:none;text-decoration:none !important;}
 .hvr-bounce-to-top:before{background-color:#ffffff;}
 #nosotros,
 #servicios,
+#blog,
 #video,
 #productos,
 #team,
@@ -26,8 +27,10 @@ a:focus{outline:none;text-decoration:none !important;}
 #video,
 #team,
 #proyectos,
+#blog,
 #contact{text-align:center;}
 #servicios,
+#blog,
 #team{background:rgb(240,240,240);}
 .section-title{padding-bottom:70px;}
 #nosotros .section-title,
@@ -68,6 +71,15 @@ a:focus{outline:none;text-decoration:none !important;}
 #servicios .feature-icon span{display:table-cell;vertical-align:middle;}
 #servicios .feature-icon .fa{color:#ffffff;font-size:36px;margin:0;padding:0;}
 #servicios h3{padding-top:14px;padding-bottom:10px;}
+
+#blog .feature-thumb{background-color:#ffffff;position:relative;padding:20px;margin:40px 0;transition: 0.3s;}
+#blog .feature-thumb:hover{box-shadow: 5px 5px 0 #009640;}
+#blog .feature-icon{width:120px;margin:0 auto;top:0;margin-top:-70px;position:relative;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;border-radius:50%;display:table;text-align:center;transition:all 0.4s ease-in-out;}
+#blog .feature-icon:hover{background-color:#009548;}
+#blog .feature-icon span{display:table-cell;vertical-align:middle;}
+#blog .feature-icon .fa{color:#ffffff;font-size:36px;margin:0;padding:0;}
+#blog h3{padding-top:14px;padding-bottom:10px;}
+
 #nosotros .col-md-4 ul{padding-top:4px;padding-left:28px;}
 #nosotros .col-md-4 ul li{color:#777;font-size:18px;font-weight:400;padding-top:2px;padding-bottom:2px;}
 #nosotros h2{color: #039742;}
@@ -129,6 +141,7 @@ footer .fa{color:#ffffff;font-size:32px;margin:0 15px;padding:0;}
 .social-icon li a:hover{background:#111;color:#ffffff;}
 @media (max-width:980px){#home{height:65vh;}
 #servicios .col-md-4:last-child,
+#blog .col-md-4:last-child,
 #nosotros .col-md-4{margin-top:42px;}
 #team .team-thumb{margin-top:20px;margin-bottom:20px;}
 #team .join-team{padding:71px 50px;margin-top:20px;}
@@ -151,6 +164,7 @@ h2{font-size:30px;}
 #servicios{padding-top:80px;padding-bottom:80px;}
 #nosotros,
 #servicios,
+#blog,
 #video,
 #productos,
 #team,
