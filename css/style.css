@@ -76,9 +76,9 @@ a:focus{outline:none;text-decoration:none !important;}
 #servicios .feature-icon .fa{color:#ffffff;font-size:36px;margin:0;padding:0;}
 #servicios h3{padding-top:14px;padding-bottom:10px;}
 
-#blog .feature-thumb{background-color:#ffffff;position:relative;padding:20px;margin:40px 0;transition: 0.3s;}
+#blog .feature-thumb{background-color:#ffffff;position:relative;padding:20px;margin:50px 0;transition: 0.3s;}
 #blog .feature-thumb:hover{box-shadow: 5px 5px 0 #009640;}
-#blog .feature-icon{width:120px;margin:0 auto;top:0;margin-top:-70px;position:relative;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;border-radius:50%;display:table;text-align:center;transition:all 0.4s ease-in-out;}
+#blog .feature-icon{margin:0 auto;top:0;margin-top:-70px;position:relative;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;border-radius:50%;display:table;text-align:center;transition:all 0.4s ease-in-out;}
 #blog .feature-icon:hover{background-color:#009548;}
 #blog .feature-icon span{display:table-cell;vertical-align:middle;}
 #blog .feature-icon .fa{color:#ffffff;font-size:36px;margin:0;padding:0;}
@@ -165,6 +165,7 @@ footer .col-md-4{padding-top:20px;padding-bottom:20px;}
 @media (max-width:650px){#home{height:100vh;}
 h1{font-size:60px;}
 h2{font-size:30px;}
+#blog .feature-thumb{margin:80px 0;}
 #servicios{padding-top:80px;padding-bottom:80px;}
 #nosotros,
 #servicios,
