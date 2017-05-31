@@ -9,7 +9,7 @@ h3{color:#444;font-size:20px;line-height:26px;letter-spacing:1px;padding-bottom:
 #productos h3{color:#555;}
 h4{font-size:12px;font-weight:bold;letter-spacing:3px;text-transform:uppercase;font-weight:400;}
 p{font-size:18px;letter-spacing:0.8px;line-height:28px;}
-a{text-decoration:none !important;}
+a{text-decoration:none !important; cursor:pointer;}
 a:visited,
 a:focus{outline:none;text-decoration:none !important;}
 .parallax-section{background-attachment:fixed !important;background-size:cover !important;}
